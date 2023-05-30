@@ -1,6 +1,6 @@
 .container{
 	width: 100%;
-	height: 1117px;
+	height: 110vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -9,20 +9,20 @@
 }
 .image{
 	width: 100%;
-	height: 1117px;
+	height: 110vh;
 	position: absolute;
 	object-fit: cover;
 }
 .hero{
-	width: 1512px;
-	height: 982px;
+	width: 150vh;
+	height: 98vh;
 	background: linear-gradient(to bottom, rgba(197,197,197,30%),rgba(10,10,10,30%));
 	backdrop-filter: blur(50px);
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: space-between;
-	border-radius: 30px;
+	border-radius: 3vh;
 	overflow: hidden;
 	border: 1px solid #fff;
 }
@@ -46,13 +46,13 @@
 }
 .left h1{
 	width: 100%;
-	height: 100px;
+	height: 10vh;
 	color: #fff;
 	font-size: 1.5vw;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	padding-left: 20px;
+	padding-left: 2vh;
 }
 .images{
 	width: 100%;
@@ -65,7 +65,7 @@
 }
 .images img{
 	width: 45%;
-	margin: 10px 0px;
+	margin: 1vh 0px;
 }
 .right{
 	width: 20%;
@@ -85,7 +85,7 @@
 	align-items: center;
 	justify-content: flex-start;
 	flex-direction: column;
-	border-radius: 10px;
+	border-radius: 1vh;
 	background: rgba(217,217,217,25%);
 }
 .card{
@@ -107,4 +107,15 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+#tags i{
+	font-size: 3vh;
+}
+@media only screen and (min-width: 1600px){
+	.container{
+		
+	}
+	.hero{
+		
+	}
 }
