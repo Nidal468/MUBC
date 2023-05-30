@@ -25,19 +25,33 @@ const MUBC: NextPage = () =>{
 			<div className={styles.hero}>
 				<nav className="w-full h-[50px] flex items-start justify-between px-10"><div className="w-[300px] h-full flex items-center justify-between"><img src="/images/logo.ico" className="w-[40px]"/><h1 className="w-[240px] h-full flex items-center justify-center text-white">Monipur Uchcha Vidyalaya and College</h1></div><img src="/images/nav.svg"/><div className="w-[300px] h-full flex items-center justify-between text-white"><EmailIcon/><CallIcon/><YouTubeIcon/><TwitterIcon/><FacebookIcon/></div></nav>
 				<div className={styles.body}>
+					<div className={styles.right}>
+						<div className={styles.box} style={{display: 'none'}}>
+							<h1 className="w-full h-[40px] flex items-center justify-start px-5 text-white">Menu</h1>
+							<div className={styles.card}><h1>Home</h1><i className="fi fi-rr-angle-small-right"></i></div>
+							<div className={styles.card}><h1>Home</h1><i className="fi fi-rr-angle-small-right"></i></div>
+							<div className={styles.card}><h1>Home</h1><i className="fi fi-rr-angle-small-right"></i></div>
+							<div className={styles.card}><h1>Home</h1><i className="fi fi-rr-angle-small-right"></i></div>
+						</div>
+						<img src="/images/bar.svg"/>
+					</div>
 					<div className={styles.left}>
 						<img src="/images/image1.svg"/>
-					</div>
-					<div className={styles.right}>
-						<div className={styles.box}>
-							<h1 className="w-full h-[40px] flex items-center justify-start px-5 text-white">Latest News</h1>
-							<div className={styles.card}><h1>Bangla is still too hard in 2023</h1></div>
+						<h1>Latest News</h1>
+						<div className={styles.images}>
+						<img src="/images/card1.svg"/>
+						<img src="/images/card1.svg"/>
+						<img src="/images/card1.svg"/>
+						<img src="/images/card1.svg"/>
+						<img src="/images/card1.svg"/>
+						<img src="/images/card1.svg"/>
+						<img src="/images/card1.svg"/>
+						<img src="/images/card1.svg"/>
 						</div>
 					</div>
 				</div>
 				<img src="/images/bottombar.svg" style={{position: "absolute", zIndex: "999", bottom: "0"}}/>
 			</div>
-			
 		</div>
 	)
 }
