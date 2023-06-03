@@ -1,178 +1,111 @@
 .container{
 	width: 100%;
-	height: 200vh;
-}
-.body{
-	width: 100%;
-	height: 100%;
+	min-height: 223vh;
 	display: flex;
-	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-start;
-} 
-.section1{
-	width: 100%;
-	height: 700px;
-	background: #fff;
+	background: #191919;
+	font-family: 'SF-Pro-Display', sans-serif;
+	font-weight: 500;
 	color: #333;
+	flex-direction: column;
+}
+.hero{
+	background: #e0e0e0;
+	width: 100%;
+	height: 98vh;
 	display: flex;
 	align-items: flex-start;
+	justify-content: center;
 	flex-direction: column;
 }
 .nav{
 	width: 100%;
-	height: 120px;
-	background: #fff;
-	border-bottom: 1px solid #333;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	box-shadow:  13px 13px 22px #b8b8b8,
-             -13px -13px 22px #ffffff;
-}
-.navInfo{
-	width: 100%;
-	height: 80px;
-	background: #191919;
+	height: 10vh;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0px 100px;
-}
-.navInfo img{
-	width: 3vw;
-}
-.contact{
-	width: 50vw;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	color: #fff;
-}
-.button{
-	width: 48%;
-	height: 100%;
-	background: #191919;
-	border-radius: 2vw;
-	color: orange;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	transition: 0.3s;
-	box-shadow:  7px 7px 7px #131313,
-             -7px -7px 7px #1f1f1f;
-}
-.button:hover{
-	background: #fff;
-	color: #333;
-}
-.sign{
-	width: 6vw;
-	height: 2vw;
-	background: #191919;
-	border-radius: 2vw;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	transition: 0.3s;
-	font-weight: 500;
-	box-shadow:  7px 7px 7px #0a0a0a,
-             -7px -7px 7px #282828;
-
-}
-.sign:hover{
-	background: #fff;
-	color: orange;
-}
-.user{
-	width: 2.5vw;
-	height: 2.5vw;
-	border-radius: 50%;
-	background: white;
-	border: 4px solid orange;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 1.5vw;
-	color: #333;
+	padding: 0px 5vh;
 }
 .links{
-	width: 80%;
-	height: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	font-family: 'SF Pro Display', sans-serif;
-  transition: 0.5s;                                              
-}
-.links h4{
-	width: 20vw;
-	height: 1.5vw;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	transition: 0.5s;
-	font-weight: 500;
-}
-.links h4:hover{
-	width: 30vw;
-	color: orange;
-}
-.hero{
-	width: 100%;
+	width: 35%;
 	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0px 2vw;
-	background: #191919;
-	color: #fff;
-}
-.info{
-	width: 48%;
-	height: 50%;
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
-	flex-direction: column;
-}
-.mySwiper{
-	width: 45%;
-	height: 50%;
+	font-size: 2vh;
 	
 }
-.mySwiper img{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	border-radius: 1vw;
-}
-.info h1{
-	font-size: 2.3vw;
-	color: orange;
-}
-.info p{
-	font-size: 1vw;
-}
-.section2{
-	width: 100%;
-	height: 600px;
-	background: #fff;
-	color: linear-gradient(#,#);
-	display: flex;
-	align-items: flex-start;
-	flex-direction: column;
-}
-.section2 h1{
-	width: 100%;
-	height: 100%;
-	background: red;
-	text-align: center;
+.links a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 2vw;
+	width: 14vh;
+	transition: 0.5s;
+}
+.links a:hover{
+	width: 18vh;
+	transition: 0.5s;
+}
+.nav input{
+	width: 40%;
+	height: 50%;
+	background: #e0e0e0;
+	box-shadow:  7px 7px 14px #cccccc,
+             -7px -7px 14px #f4f4f4;
+	outline: none;
+	border-radius: 3vh;
+	padding: 0.5vh 2vh;
+	font-size: 1.5vh;
+}
+
+.button{
+	width: 20vh;
+	height: 4vh;
+	background: #e0e0e0;
+	box-shadow:  7px 7px 14px #cccccc,
+             -7px -7px 14px #f4f4f4;
+	outline: none;
+	border-radius: 3vh;
+	font-size: 2vh;
+}
+.button:hover{
+	background: #e7e7e7;
+	color: #1d9395;
+}
+.about{
+	background: #e0e0e0;
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.swiper{
+	width: 45%;
+	height: 80%;
+	border-radius: 2vh;
+	box-shadow:  10px 10px 20px #afafaf,
+             -10px -10px 20px #ffffff;
+}
+.swiper img{
+	width: 100%;
+	height: 100%;
+	border-radius: 2vh;
+	object-fit: cover;
+}
+.routine{
+	background: #191919;
+	width: 100%;
+	height: 25vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	font-size: 3vh;
+	padding: 1vh 0px;
+	color: #fff;
+}
+.routine img{
+	width: 10vh;
 }
